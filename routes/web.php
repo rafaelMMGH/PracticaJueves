@@ -16,5 +16,11 @@ Route::get('/', function () {
 });
 
 Route::get('/registro', function(){
-	return view('sections.registro');
+    return view('sections.registro');
 });
+
+//Route::post('/SGJCregistrar', 'SGJCregistrarController@guardar');
+
+//Route::post('/SGJCregistrar', 'SGJCregistrarController@guardar2');
+
+Route::post('/SGJCregistrar', 'SGJCregistrarController@guardar3');
