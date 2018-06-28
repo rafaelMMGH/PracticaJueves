@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/registro', function(){
 	return view('sections.registro');
 });
+
+//Route::post('/LEGRegistrar', 'LEGregistrarController@guardar');
+//Route::post('/LEGRegistrar', 'LEGregistrarController@guardarDos');
+Route::post('/LEGRegistrar', 'LEGregistrarController@guardarTres');

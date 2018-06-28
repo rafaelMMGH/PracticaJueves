@@ -4,14 +4,15 @@
 
 @section('content')
 
-<form action="" method="post">
+<form action="/LEGRegistrar" method="post">
+	@csrf
 	<div class="row col-md-12">
 	<label for="name" class="col-md-2">Nombre: </label>
-	<input type="text" name="name" placeholder="Nombre" required="required" class="form-control col-md-7">		
+	<input type="text" name="name" placeholder="Nombre" required="required" class="form-control col-md-7">
 	</div>
 	<div class="row col-md-12">
-		
-	
+
+
 	<label for="apaPterno" class="col-md-2">Apellido Paterno: </label>
 	<input type="text" name="apPaterno" required="required" class="form-control col-md-7">
 	</div>
@@ -43,8 +44,5 @@
 	<div class="row col-md-12 pull-right">
 	<input type="submit" value="Registrar" class="btn btn-primary pull-right" >
 </form>
-
-
-
 
 @endsection

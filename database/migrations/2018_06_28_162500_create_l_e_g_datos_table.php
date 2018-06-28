@@ -22,6 +22,7 @@ class CreateLEGDatosTable extends Migration
             $table->string('email');
             $table->string('sex');
             $table->integer('age');
+            $table->string('password');
             $table->timestamps();
         });
     }
