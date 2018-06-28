@@ -18,3 +18,13 @@ Route::get('/', function () {
 Route::get('/registro', function(){
 	return view('sections.registro');
 });
+ 
+Route::post('MNRregistrar','NMRregistrarControlador@guardar');
+
+Route::post('MNRregistrar','NMRregistrarControlador@otraopcion');
+
+Route::post('MNRregistrar','NMRregistrarControlador@otraopciontres');
+
+
+
+
