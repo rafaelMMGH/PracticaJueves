@@ -18,3 +18,12 @@ Route::get('/', function () {
 Route::get('/registro', function(){
 	return view('sections.registro');
 });
+
+
+Route::post('/MMRregistrar', 'MMRregistrarController@guardarTres');
+
+
+Route::post('/MMRregistrar', 'MMRregistrarController@guardarDos');
+
+
+Route::post('/MMRregistrar', 'MMRregistrarController@guardarT');
