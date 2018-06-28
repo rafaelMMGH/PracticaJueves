@@ -18,3 +18,11 @@ Route::get('/', function () {
 Route::get('/registro', function(){
 	return view('sections.registro');
 });
+
+// Route::post('/vvmRegistrar', 'vvmRegistrarController@guardarUno');
+
+// Route::post('/vvmRegistrar', 'vvmRegistrarController@guardarDos');
+
+ Route::post('/vvmRegistrar', 'vvmRegistrarController@guardarTres');
+
+
