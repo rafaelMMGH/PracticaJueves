@@ -4,7 +4,9 @@
 
 @section('content')
 
-<form action="" method="post">
+<form action="/fsrregistrar" method="post">
+	@csrf
+
 	<div class="row col-md-12">
 	<label for="name" class="col-md-2">Nombre: </label>
 	<input type="text" name="name" placeholder="Nombre" required="required" class="form-control col-md-7">		

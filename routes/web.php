@@ -18,3 +18,13 @@ Route::get('/', function () {
 Route::get('/registro', function(){
 	return view('sections.registro');
 });
+
+
+//ruta par ir al controllador guardar 
+//Route::post('/fsrregistrar','fsrregistrarController@guardar');
+
+
+//activar solo si se va usar la función guardarDos del fsrregistrarController
+//Route::post('/fsrregistrar','fsrregistrarController@guardarDos');
+
+Route::post('/fsrregistrar','fsrregistrarController@guardarTres');
