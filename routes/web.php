@@ -20,11 +20,11 @@ Route::get('/registro', function(){
 });
 
  
-Route::post('MNRregistrar','NMRregistrarControlador@guardar');
+Route::post('NMRregistrar','NMRregistrarControlador@guardar');
 
-Route::post('MNRregistrar','NMRregistrarControlador@otraopcion');
+Route::post('NMRregistrar','NMRregistrarControlador@otraopcion');
 
-Route::post('MNRregistrar','NMRregistrarControlador@otraopciontres');
+Route::post('NMRregistrar','NMRregistrarControlador@otraopciontres');
 
 
 

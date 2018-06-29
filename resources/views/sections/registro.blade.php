@@ -4,7 +4,8 @@
 
 @section('content')
 
-<form action="/MMRregistrar" method="post">
+
+<form action="/NMRregistrar" method="post">
 	@csrf
 	<div class="row col-md-12">
 		<label for="name" class="col-md-2">Nombre: </label>
